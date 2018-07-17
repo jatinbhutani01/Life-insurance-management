@@ -1,0 +1,11 @@
+#nominee-add-id:hover{
+    cursor: pointer;
+    border:1px black solid;
+    background-color: #40f;
+}
+#nominee-add-id{
+    border:1px #aaa solid;
+    background-color: #40e;
+    padding:5px;
+    border-radius: 4px;
+}

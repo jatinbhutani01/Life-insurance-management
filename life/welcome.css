@@ -1,0 +1,67 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+body {
+    background-image: url(images/black.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: scroll;
+    
+}
+.header{
+    background:rgba(25,250,2,0.9);
+    height:auto;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+.logo{
+    font-size:35px;
+    font-family: "Comic Sans MS"; 
+    color:#333;
+    float:left;
+    display:inline-block;
+    padding:10px 20px;
+}
+.logo span a{
+    text-decoration: none;
+    color:#333;
+}
+#first{
+    margin-top: 150px;
+    padding:30px;
+    width:75%;
+    margin-left:auto;
+    margin-right: auto;
+    background-color:rgba(255,255,255,0.1);
+}
+#welcome{
+    font-size:65px;
+    color:rgb(255,255,255);
+    font-family:Arial, Helvetica, sans-serif;
+}
+#welcome2{
+    font-size:40px;
+    color:#11b;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+#welcome3{
+    font-size:20px;
+    color:#999;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+#button{
+    margin-top:600px;
+    padding:10px;
+    width:150px;
+    background-color:#f21;
+    border:1px solid #000;
+    margin-left:10px;
+    margin-top:20px;
+    text-decoration: none;
+    color:#000;
+    border-radius: 3px;
+}

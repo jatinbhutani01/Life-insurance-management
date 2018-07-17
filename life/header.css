@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    background-image: url(images/black.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header{
+    background:rgba(2,230,2,0.7);
+    height:auto;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+.links{
+    list-style-type: none;
+    float:right;
+    margin-top: 10px;
+    overflow:hidden;
+}
+.links li a{
+    font-family: "Segoe UI", Frutiger;
+    text-decoration: none;
+    color:#333;
+    font-size:19px;
+    padding:20px;
+    background-color:#ddd;
+   
+}
+.header ul li{
+    display:inline-block;
+    padding:10px;
+    text-decoration:none;
+}
+.header ul li:last-child{
+    padding-right:30px;
+}
+.header ul li a:hover{
+    background-color:rgba(250,0,10,0.8);
+    color:#111;
+    border:3px solid #000;
+    padding:17px;
+}
+.logo{
+    font-size:35px;
+    font-family: "Comic Sans MS"; 
+    color:#333;
+    float:left;
+    display:inline-block;
+    padding:10px 20px;
+}
+.logo span a{
+    text-decoration: none;
+    color:#333;
+}

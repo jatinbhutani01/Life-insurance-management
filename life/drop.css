@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.workarea{
+    margin-top:150px;
+    margin-left: auto;
+    margin-right: auto;
+    width:52%;
+    background-color: rgba(250,250,250,0.7);
+    margin-bottom: 50px;
+}
+.workarea .toggle ul{
+    list-style-type: none;
+    margin-top:20px;
+    margin-left:1%;
+}
+.workarea .toggle ul li{
+    display:inline-block;
+    background-color:#aaa;
+    width:31%;
+    margin-left:1%;
+    margin-top:15px;
+    text-align: center;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+.workarea .toggle ul li div{
+    padding:12px 0;
+}
+.toggle ul li:hover{
+    cursor:pointer;
+    outline:1.5px dashed blueviolet;
+    background-color:#a0a0a0;
+}
+.texarea{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.texarea .inner{
+    padding: 30px 0;
+}
+
